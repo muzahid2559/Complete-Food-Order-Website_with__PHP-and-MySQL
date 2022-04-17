@@ -1,0 +1,163 @@
+/* 
+    Author: Sadiqur Rahman
+    Theme: Food Restaurent
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.wraper{
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 85%;
+    margin: 0 auto;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-20{
+    width: 45%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    padding: .75%;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1.75%;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1.75%;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+.btn-success{
+    background-color: #92A9BD;
+    padding: 1.75%;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.btn-success:hover{
+    background-color: #7C99AC;
+}
+.primary-btn{
+    background-color: #1e90ff;
+    padding: 2.5%;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.primary-btn:hover{
+    background-color: #3742fa;
+}
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+.font-size{
+    font-size: 12px;
+    font-weight: bold;
+}
+/* Menu section css start */
+.menu{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.menu ul li{
+    display: inline;
+    padding: 1.5%;
+}
+.menu ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+/* Menu section css end */
+/* Main content css start */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.main-content h1{
+    font-size: 22px;
+}
+.col-4{
+    width: 18%;
+    background-color: #ffffff;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 2px;
+    float: left;
+}
+/* Main content css end */
+
+/* Footer section css start */
+.custom-footer{
+    text-align: center;
+}
+.footer{
+    background-color: #ff4757;
+    color: #ffffff;
+}
+/* Footer section css end */
+/* Login section css start */
+.login{
+    border: 1px solid gray;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    background: rgb(250, 248, 248);
+}
+.text-center{
+    text-align: center;
+}
+.padding{
+    padding: 2.5% 0;
+}
+.padding p{
+    display: inline;
+}
+/* Login section css end */
